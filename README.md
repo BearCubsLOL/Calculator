@@ -9,3 +9,5 @@ For addition pls use +, and for subtraction use -, for multiplication use *, and
 # Patch Notes
 
 Version 1.0 - Initial Release
+
+Version 1.1 - Bug Fixes
