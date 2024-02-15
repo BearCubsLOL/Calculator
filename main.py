@@ -1,15 +1,15 @@
 def again():
 
         another = (input("Would you like to do another equation? Y/N: "))
-        if another == "Y":
+        if another.upper() == "Y":
             calculator()
-        elif another == "N":
+        elif another.upper() == "N":
             print("Thanks!")
         else:
             print("Invalid try again")
             again()
 def num1():
-    return int(input("Enter 1st Number: "))
+    return float(input("Enter 1st Number: "))
 def sign():
     sign1 = (input("Enter an operation: "))
 
@@ -24,25 +24,37 @@ def sign():
 
     elif sign1 == "/":
             ""
+            
+    elif sign1.upper() == "R":
+            ""
+        
+    elif sign1 == "^":
+            ""
+            
     else:
-        print("Invalid operation")
+        print("Invalid try again\n")
         calculator()
     
     return sign1
 def num2():
-    return int(input("Enter 2nd Number: "))
+    return float(input("Enter 2nd Number: "))
 def run(sign1, number1, number2):
     if sign1 == "+":
-            print(number1 + number2)
+        print(number1 + number2)
 
     if sign1 == "-":
-            print(number1 - number2)
+        print(number1 - number2)
 
     if sign1 == "*":
-            print(number1 * number2)
+        print(number1 * number2)
 
     if sign1 == "/":
-            print(number1 / number2)
+        print(number1 / number2)
+    if sign1.upper() == "R":
+        print(number1 ** (1/number2))
+    if sign1 == "^":
+        print(number1 ** (number2))
+            
 def calculator():
     try:
         return1 = num1()
@@ -53,8 +65,12 @@ def calculator():
     except:
         print("Invalid try again\n")
         calculator()
-print("Use + for addition")
-print("Use - for subtraction")
-print("Use * for multiplication")
-print("Use / for division")
+print("Use + for addition\n")
+print("Use - for subtraction\n")
+print("Use * for multiplication\n")
+print("Use / for division\n")
+print("Use R for finding the root")
+print("First number = the number you are finding the root of!")
+print("Second number = number which you want the root to be\n")
+print("Use ^ for exponentiation\n")
 calculator()
