@@ -13,3 +13,5 @@ Version 1.0 - Initial Release/Added "Addition", "Subtraction", "Multipliaction",
 Version 1.1 - Bug Fixes
 
 Version 2.0 - Added "Exponentiation", and "Finding Roots"
+
+Version 2.1 - Bug Fixes

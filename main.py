@@ -14,26 +14,25 @@ def sign():
     sign1 = (input("Enter an operation: "))
 
     if sign1 == "+":
-            ""
+            pass
 
     elif sign1 == "-":
-            ""
+            pass
 
     elif sign1 == "*":
-            ""
+            pass
 
     elif sign1 == "/":
-            ""
+            pass
             
     elif sign1.upper() == "R":
-            ""
+            pass
         
     elif sign1 == "^":
-            ""
+            pass
             
     else:
-        print("Invalid try again\n")
-        calculator()
+        print("10" + 3)
     
     return sign1
 def num2():
@@ -63,7 +62,7 @@ def calculator():
         run(return2, return1, return3) 
         again()
     except:
-        print("Invalid try again\n")
+        print("\nInvalid try again\n")
         calculator()
 print("Use + for addition\n")
 print("Use - for subtraction\n")
