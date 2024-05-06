@@ -8,10 +8,10 @@ For addition pls use +, and for subtraction use -, for multiplication use *, and
 
 # Patch Notes
 
-Version 1.0 - Initial Release/Added "Addition", "Subtraction", "Multipliaction", and "Division"
+Version 1.0 -- Initial Release/Added "Addition", "Subtraction", "Multipliaction", and "Division"
 
-Version 1.1 - Bug Fixes
+Version 1.1 -- Bug Fixes
 
-Version 2.0 - Added "Exponentiation", and "Finding Roots"
+Version 2.0 -- Added "Exponentiation", and "Finding Roots"
 
-Version 2.1 - Bug Fixes
+Version 2.1 -- Bug Fixes
